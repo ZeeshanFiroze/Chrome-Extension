@@ -1,0 +1,31 @@
+#input-el
+{
+ display: block;
+
+}
+body{
+    margin: 0px;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+input
+{
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-sizing: border-box;
+    border: 1px solid #5f9341;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    margin-bottom: 5px;
+}
+button
+{
+ color: white ;
+ background-color:#5f9341;
+ border: none;
+ border-radius: 2px;
+ font-weight: bold;
+ padding: 10px;
+ 
+}
