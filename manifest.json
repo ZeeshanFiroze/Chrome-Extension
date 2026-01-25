@@ -1,0 +1,10 @@
+{
+    "manifest_version": 2,
+    "name": "Leads Tracker",
+    "version": "1.0",
+    "description": "A Chrome extension to track and manage leads effectively.",
+    "action": {
+        "default_popup": "chromex.html",
+        "default_icon": "icon.png"
+    }
+}
