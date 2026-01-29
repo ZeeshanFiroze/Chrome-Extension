@@ -21,6 +21,16 @@ delbtn.addEventListener("dblclick",function()
         myleads=[];
         render(myleads);
     })
+let tabbtn=document.getElementById("tab-btn")
+tabbtn.addEventListener("click", function()
+{
+  chrome.tabs.query({active: true,currentWindow: true},function(tabs)
+  {
+    myleads.push(tabs[0].url)
+    localStorage.setItem("myLeads",JSON.stringify(myleads))
+    render(myleads)
+  })
+})
 function render(leads){
     let listitems = "";
 for (let i=0; i<leads.length ; i++) 
